@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvin Kinyanjui</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <!-- Background Elements -->
+    <div class="bg-grid"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">CALVIN KINYANJUI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#sections" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Electrical</span>
+                    <span class="title-line gradient-text"> & Electronics</span>
+                    <span class="title-line">Aspiring Engineer</span>
+                </h1>
+                <div class="hero-buttons">
+                    <a href="#sections" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <div class="btn-bg"></div>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <div class="btn-bg"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://raw.githubusercontent.com/CalKK/portfolio/main/gallery/CALVIN HEADSHOT.jpeg" alt="Calvin Kinyanjui - Professional Profile">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-main">About</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-text">
+                        Where technology meets community, I thrive. As a driven and visionary individual, I harness my expertise in 3D Modeling, Building Management Systems, and mentorship to craft innovative solutions. With a strong foundation in leadership, Arduino, and innovation challenges, I excel in spearheading projects, guiding teams, and empowering communities. My passion for excellence, collaboration, and creative problem-solving fuels my endeavors as a co-founder, tech innovator, and community leader.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Sections -->
+    <section id="sections" class="portfolio-sections">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-main">Portfolio</h2>
+            </div>
+            
+            <!-- Section Navigation -->
+            <div class="section-nav">
+                <button class="section-btn active" data-section="honors">Honors & Awards</button>
+                <button class="section-btn" data-section="experience">Experience</button>
+                <button class="section-btn" data-section="skills">Skills</button>
+                <button class="section-btn" data-section="education">Education</button>
+                <button class="section-btn" data-section="certifications">Licenses & Certifications</button>
+                <button class="section-btn" data-section="projects">Projects</button>
+            </div>
+
+            <!-- Section Content -->
+            <div class="section-content">
+                <!-- Honors & Awards -->
+                <div class="content-panel active" id="honors">
+                    <div class="content-grid">
+                        <div class="content-card">
+                            <div class="card-icon">🏆</div>
+                            <h3>DISTINGUISHED DESIGN AWARD</h3>
+                            <p>Scooped the accolade for at the Power The Community Award Show on the 31st of May 2025 for the solution of "electricity as a service" (EaaS) integrating grid-tied (solar) & off-grid solutions (battery swapping).</p>
+                            <a href="https://drive.google.com/file/d/1-UP6TDLO0SN7R3N3MPp4bdWWvWA5xC47/view?usp=sharing" class="card-link">View Award</a>
+                        </div>
+                        <div class="content-card">
+                            <div class="card-icon">🥇</div>
+                            <h3>LEADERSHIP AWARD</h3>
+                            <p>Awarded for having served a 3 year tenure as class representative of my class.</p>
+                            <a href="https://drive.google.com/file/d/1XwUE75JbAbnKZbujL-hxMXq1PqprlG92/view?usp=sharing" class="card-link">View Award</a>
+                        </div>
+                        <div class="content-card">
+                            <div class="card-icon">⭐</div>
+                            <h3>WED'25 SEMI-FINALISTS</h3>
+                            <p>Awarded for reaching the semi-finals of the competition of World Engineering Day 2025 by UNESCO.</p>
+                            <a href="https://drive.google.com/file/d/1Th7BQCqJmKKStuOJOG3imtbLUtCWMfuu/view?usp=sharing" class="card-link">View Award</a>
+                        </div>
+                        <div class="content-card">
+                            <div class="card-icon">🏆</div>
+                            <h3>VICTORS AT SCHNEIDER ELECTRIC FOUNDATION NATIONALS</h3>
+                            <p>Emerged victorious at the inaugural Enactus Kenya & Scheider Electric Battery Innovation Challenge on 13th September 2024.</p>
+                            <a href="https://drive.google.com/file/d/1mIk09W9zwqlniXQ9ZgEXT5qXrQU_aPtS/view?usp=sharing" class="card-link">View Award</a>
+                        </div>
+                        <div class="content-card">
+                            <div class="card-icon">🏆</div>
+                            <h3>VICTORS AT KSYP</h3>
+                            <p>Emerged victorious at the Kenya Student Young Professionals smart living conference on 8th November 2024.</p>
+                            <a href="https://drive.google.com/file/d/1xePiEzUr197M5RhTSnJajL_HFojn5DF3/view?usp=sharing" class="card-link">View Award</a>
+                        </div>
+                        <div class="content-card">
+                            <div class="card-icon">🏆</div>
+                            <h3>1ST RUNNERS UP</h3>
+                            <p>Awarded for emerging 1st runners up in the Higher Education Partnerships in Sub-Saharan Africa (HEP-SSA) Innovation Challenge 2023 driven by the Royal Academy of Engineering on 23rd November 2023.</p>
+                            <a href="https://drive.google.com/file/d/1ZClAeH3-ZjzdYULbqIR5g3ahkp12HdXn/view?usp=sharing" class="card-link">View Award</a> 
+                        </div>
+                        <div class="content-card">
+                            <div class="card-icon">🏆</div>
+                            <h3>1ST RUNNERS UP</h3>
+                            <p>Awarded for emerging 1st runners up in the inaugural ideas fest that was staged in Strathmore University in 2022 for presenting a project proposal titled, "Smart Stima" with my team members on 9th December 2022.</p>
+                            <a href="https://drive.google.com/file/d/1T_04YKML2ZbrTr7u1l3VtfHDVjOcq1iT/view?usp=sharing" class="card-link">View Award</a>
+                        </div> 
+                        <div class="content-card">
+                            <div class="card-icon">🏆</div>
+                            <h3>IEEE ENTREPRENEURSHIP SUMMIT AWARD</h3>
+                            <p>One of 10 startups selected to pitch at the IEEE Entrepreneurship summit.</p>
+                            <a href="https://drive.google.com/file/d/1GXzJu39H-vQ-tRuhEhqG0LCPAro3uxHB/view?usp=sharing" class="card-link">View Award</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="content-panel" id="experience">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">June 2025 - Present</div>
+                            <div class="timeline-content">
+                                <h3>EX-OFFICIO ESA BOARD ADVISOR</h3>
+                                <h4>Strathmore Computing and Engineering Students Association (SCESA)</h4>
+                                <p>Providing strategic guidance and oversight to the Engineering Students Association board, leveraging experience from previous leadership roles to mentor current student leaders.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">June 2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3>CO-FOUNDER & CPO</h3>
+                                <h4>Afterlife Innovations LTD</h4>
+                                <p>Leading product development and innovation strategy for sustainable energy solutions, focusing on battery technology and renewable energy systems for underserved communities.</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-date">May 2025 - Present</div>
+                            <div class="timeline-content">
+                                <h3>SOFTWARE ENGINEER</h3>
+                                <h4>EDE Wellness Studio</h4>
+                                <p>Developing and managing the proprietary digital platform for EDE Wellness Studio, a strategically engineered web presence that enables individuals to seamlessly access and engage with a comprehensive suite of holistic wellness modalities.</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-date">July 2021 - Nov 2024</div>
+                            <div class="timeline-content">
+                                <h3>CLASS REPRESENTATIVE</h3>
+                                <h4>Strathmore University</h4>
+                                <p>Service Leadership</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-date">Dec 2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3>MAKERSPACE FELLOW</h3>
+                                <h4>Strathmore University</h4>
+                                <p>Contributing to student innovation within the engineering department of Strathmore University.</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-date">April 2025 - Present</div>
+                            <div class="timeline-content">
+                                <h3>PEER MENTOR</h3>
+                                <h4>Strathmore University</h4>
+                                <p>Tutelage for juniors within the school.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">May 2023 - Dec 2024</div>
+                            <div class="timeline-content">
+                                <h3>CHAIR & CTO</h3>
+                                <h4>IET Strathmore Chapter</h4>
+                                <p>Led technical initiatives and chapter operations, organizing engineering workshops, innovation challenges, and professional development programs for over 200 student members.</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-date">Sep 2022 - Aug 2023</div>
+                            <div class="timeline-content">
+                                <h3>14TH ACADEMIC DOCKET SENATOR</h3>
+                                <h4>Strathmore University Student Council</h4>
+                                <p>Serving as a member of a student governing body, primarily responsible for making recommendations on academic and professional matters</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-date">Feb 2023 - April 2023</div>
+                            <div class="timeline-content">
+                                <h3>i-TEAMS MARKET RESEARCH LEAD</h3>
+                                <h4>Strathmore Energy Research Centre</h4>
+                                <p>Responsible for overseeing research projects, analyzing market trends, and providing insights to inform business strategies.</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-date">May 2022 - June 2022</div>
+                            <div class="timeline-content">
+                                <h3>AFFILIATE MARKETING AMBASSADOR</h3>
+                                <h4>Kune Food</h4>
+                                <p>Promoting a brand's products or services through their network, earning commissions on sales generated from their referrals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="content-panel" id="skills">
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <h3>Technical Skills</h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <span class="skill-name">3D Modeling & CAD Design</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Arduino Programming</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Building Management Systems</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Circuit Design & Analysis</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">IoT Systems Integration</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="88"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Leadership & Innovation</h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <span class="skill-name">Team Leadership</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="92"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Project Management</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="87"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Innovation Challenges</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Mentorship & Training</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Strategic Planning</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="83"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="content-panel" id="education">
+                    <div class="education-list">
+                        <div class="education-item">
+                            <div class="education-icon">🎓</div>
+                            <div class="education-content">
+                                <h3>BSc. Electrical and Electronics Engineering</h3>
+                                <h4>Strathmore University</h4>
+                                <p class="education-date">2021 - 2026</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">📚</div>
+                            <div class="education-content">
+                                <h3>Certificate in Commercialization</h3>
+                                <h4>University of Cambridge</h4>
+                                <p class="education-date">Jan 2023 - April 2023</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">📚</div>
+                            <div class="education-content">
+                                <h3>High School Diploma</h3>
+                                <h4>Strathmore School</h4>
+                                <p class="education-date">2017 - 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="content-panel" id="certifications">
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <h3>POWER THE COMMUNITY '25</h3>
+                            <p class="cert-issuer">Energy Mentors</p>
+                            <p class="cert-date">Issued: May 2025</p>
+                            <a href="https://drive.google.com/file/d/1-UP6TDLO0SN7R3N3MPp4bdWWvWA5xC47/view?usp=sharing" class="cert-link">Verify Certificate</a>
+                        </div>
+                        <div class="cert-card">
+                            <h3>WED '25</h3>
+                            <p class="cert-issuer">UNESCO</p>
+                            <p class="cert-date">Issued: March 2025</p>
+                            <a href="https://credsverse.com/credentials/0284c381-2d70-40f0-a633-0de7aa816376" class="cert-link">Verify Certificate</a>
+                        </div>
+                        <div class="cert-card">
+                            <h3>LEADERSHIP EXCELLENCE</h3>
+                            <p class="cert-issuer">Strathmore University</p>
+                            <p class="cert-date">Issued: July 2024</p>
+                            <a href="https://drive.google.com/file/d/1XwUE75JbAbnKZbujL-hxMXq1PqprlG92/view?usp=sharing" class="cert-link">Verify Certificate</a>
+                        </div>
+                        <div class="cert-card">
+                            <h3>HEP-SSA</h3>
+                            <p class="cert-issuer">Royal Academy of Engineering</p>
+                            <p class="cert-date">Issued: December 2023</p>
+                            <a href="https://drive.google.com/file/d/1ZClAeH3-ZjzdYULbqIR5g3ahkp12HdXn/view?usp=sharing" class="cert-link">Verify Certificate</a>
+                        </div>
+                        <div class="cert-card">
+                            <h3>PROJECT DEVELOPER</h3>
+                            <p class="cert-issuer">IEEE YESIST12</p>
+                            <p class="cert-date">Issued: July 2023</p>
+                            <a href="https://drive.google.com/file/d/1kCDPnlY8jbC4EnVAh2k55mgD5bXChzXX/view?usp=drive_link" class="cert-link">Verify Certificate</a>
+                        </div>
+                        <div class="cert-card">
+                            <h3>DEVELOPMENT i-TEAMS NAIROBI</h3>
+                            <p class="cert-issuer">Centre for Global Equality</p>
+                            <p class="cert-date">Issued: April 2023</p>
+                            <a href="https://drive.google.com/file/d/1_d4SR3n3mIWaavqimF5Es0muVTgdD1oa/view?usp=drive_link" class="cert-link">Verify Certificate</a>
+                        </div>
+                        <div class="cert-card">
+                            <h3>INAUGURAL IDEAS FESTIVAL</h3>
+                            <p class="cert-issuer">Strathmore University</p>
+                            <p class="cert-date">Issued: December 2022</p>
+                            <a href="https://drive.google.com/file/d/1T_04YKML2ZbrTr7u1l3VtfHDVjOcq1iT/view?usp=sharing" class="cert-link">Verify Certificate</a>
+                        </div>
+                        <div class="cert-card">
+                            <h3>ARDUINO DEVELOPMENT</h3>
+                            <p class="cert-issuer">TME Education</p>
+                            <p class="cert-date">Issued: June 2022</p>
+                            <a href="https://drive.google.com/file/d/1JihJdDCVvWlT754JGWwhTKq0x51SzheB/view?usp=drive_link" class="cert-link">Verify Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects -->
+                <div class="content-panel" id="projects">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3>EDE WELLNESS STUDIO</h3>
+                                <p>Developing and managing the proprietary digital platform for EDE Wellness Studio, a strategically engineered web presence that enables individuals to seamlessly access and engage with a comprehensive suite of holistic wellness modalities.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Web Development</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://edewellnessnairobi.com" class="project-link">View project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-content">
+                                <h3>AFTERLIFE INNOVATIONS LTD</h3>
+                                <p>At Afterlife Innovations, we believe every battery—whether it’s powering an electric vehicle, your smartphone, home solar setup or even a vintage gadget—deserves a second life. Through our nationwide network of collection, repurposing and recycling, we turn both new and spent batteries into ready-to-use energy solutions and recover their valuable materials. No battery is left behind: we keep power flowing, cut down on e-waste and protect communities by making sure every cell is reused or responsibly recycled. By breathing new life into yesterday’s batteries, we’re building a cleaner planet and fueling a truly circular economy.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Climate Technology Manufacturing</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://afterlifeinnovations.netlify.app" class="project-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-main">Contact</h2>
+                <h3 class="section-subtitle">
+                    Let's create something 
+                    <span class="gradient-text">amazing together</span>
+                </h3>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <span>📧</span>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:calvinkinyanjui017@gmail.com" class="contact-link">calvinkinyanjui017@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <span>📱</span>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+254796120248" class="contact-link">+254 796 120248</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <span>📍</span>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h3 class="social-heading">Connect with me</h3>
+                        <div class="social-links-container">
+                            <a href="https://www.linkedin.com/in/calvin-kinyanjui-95734222a/" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://github.com/CalKK" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CV Download Section -->
+                <div class="cv-download-section">
+                    <div class="cv-download-content">
+                        <div class="cv-info">
+                        </div>
+                        <a href="https://raw.githubusercontent.com/CalKK/portfolio/main/CALVIN KINYANJUI'S RESUME.pdf" 
+                           class="btn btn-primary cv-download-btn" 
+                           download="CALVIN KINYANJUI'S RESUME.pdf"
+                           onclick="console.log('CV download initiated')">
+                            <span>Download CV</span>
+                            <div class="btn-bg"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Navigation -->
+    <div class="quick-links">
+        <div class="container">
+            <div class="quick-links-content">
+                <h3 class="quick-links-title">Quick Navigation</h3>
+                <div class="quick-links-grid">
+                    <a href="#home" class="quick-link">
+                        <div class="quick-link-icon">🏠</div>
+                        <span>Home</span>
+                    </a>
+                    <a href="#about" class="quick-link">
+                        <div class="quick-link-icon">👤</div>
+                        <span>About</span>
+                    </a>
+                    <a href="#sections" class="quick-link">
+                        <div class="quick-link-icon">💼</div>
+                        <span>Portfolio</span>
+                    </a>
+                    <a href="#contact" class="quick-link">
+                        <div class="quick-link-icon">📧</div>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-text">CK</span>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2025 Calvin Kinyanjui. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
