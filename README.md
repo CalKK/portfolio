@@ -17,7 +17,7 @@ A modern, responsive portfolio website showcasing the professional journey, skil
 
 ## 🚀 Live Demo
 
-Visit the live portfolio at:([https://calvin-kinyanjui.vercel.app](https://calvinkinyanjui.netlify.app)
+Visit the live portfolio at:([https://calvin-kinyanjui.netlify.app](https://calvinkinyanjui.netlify.app)
 
 ## 🛠️ Tech Stack
 
